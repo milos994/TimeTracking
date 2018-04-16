@@ -1,7 +1,7 @@
 {
   "name": "timetracking",
   "version": "1.0.0",
-  "description": "App for time tracking.",
+  "description": "App for time tracking..",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
