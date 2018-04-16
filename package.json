@@ -1,0 +1,24 @@
+{
+  "name": "timetracking",
+  "version": "1.0.0",
+  "description": "App for time tracking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milos994/TimeTracking.git"
+  },
+  "keywords": [
+    "time",
+    "tracking",
+    "application"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milos994/TimeTracking/issues"
+  },
+  "homepage": "https://github.com/milos994/TimeTracking#readme"
+}
