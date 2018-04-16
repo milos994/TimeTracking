@@ -8,9 +8,9 @@ const config = require(`${__dirname}/../config/config.json`)[env]; //eslint-disa
 const db = {};
 
 if (config.use_env_variable) {
-	let sequelize = new Sequelize(process.env[config.use_env_variable], config); //eslint-disable-line
+	sequelize = new Sequelize(process.env[config.use_env_variable], config); //eslint-disable-line
 } else {
-	let sequelize = new Sequelize(config.database, config.username, config.password, config); // eslint-disable-line
+	sequelize = new Sequelize(config.database, config.username, config.password, config); // eslint-disable-line
 }
 
 fs
