@@ -4,9 +4,9 @@
     "ecmaVersion": 8,
     "sourceType": "script"
   },
-  "plugins": [
-    "mocha"
-  ],
+//  "plugins": [
+//    "mocha"
+//  ],
   "rules": {
     "semi": 2,
     "indent": [
